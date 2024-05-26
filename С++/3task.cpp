@@ -1,9 +1,9 @@
-#include <iostream> // Подключение библиотеки ввода-вывода
-#include <vector> // Подключение библиотеки для работы с динамическими массивами
-#include <iomanip> // Подключение библиотеки для форматирования вывода
-#include <math.h> // Подключение математической библиотеки для математических функций
+#include <iostream> 
+#include <vector> 
+#include <iomanip> 
+#include <math.h> 
 
-using namespace std; // Использование стандартного пространства имен
+using namespace std;
 
 void coffee(double TemprNull, double TemprAverage, double CoolDownCoef, int t, vector<double>& Coffee)
 {
